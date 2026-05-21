@@ -136,7 +136,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Sage Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -164,17 +164,17 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 150,
 
     // Maximum bank amount before upgrades (if upgrades are used).
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 200,
 
     // Work command random payout range.
     workMin: 10,
-    workMax: 100,
+    workMax: 500,
 
     // Beg command random payout range.
     begMin: 5,
@@ -437,21 +437,21 @@ export const botConfig = {
   features: {
     // Core systems.
     economy: true,
-    leveling: true,
+    leveling: false,
     moderation: true,
     logging: true,
-    welcome: true,
+    welcome: false,
 
     // Community engagement systems.
-    tickets: true,
+    tickets: false,
     giveaways: true,
     birthday: true,
     counter: true,
 
     // Security and self-service systems.
-    verification: true,
+    verification: false,
     reactionRoles: true,
-    joinToCreate: true,
+    joinToCreate: false,
 
     // Utility/quality-of-life modules.
     voice: true,
